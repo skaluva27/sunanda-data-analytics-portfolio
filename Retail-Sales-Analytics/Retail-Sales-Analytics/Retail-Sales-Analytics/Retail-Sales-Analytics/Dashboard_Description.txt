@@ -1,0 +1,17 @@
+Retail Sales Analytics Dashboard - Power BI
+
+Page 1: Overview
+- KPI Cards: Total Sales, Total Profit, Units Sold, YoY Growth
+- Line Chart: Monthly Sales Trend
+- Bar Chart: Top 10 Products
+- Map: Sales by Region
+
+Page 2: Product Insights
+- Bar Chart: Sales by Category
+- Table: Product-level Profitability
+- Scatter Plot: Quantity vs Sales
+
+Page 3: Regional Insights
+- Map: Sales by Region
+- KPI Cards: Region-wise Revenue & Profit
+- Bar Chart: Region-wise Monthly Trend
