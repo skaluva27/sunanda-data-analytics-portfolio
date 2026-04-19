@@ -1,0 +1,6 @@
+OrderID,OrderDate,CustomerID,Product,Category,Region,Quantity,UnitPrice,Cost
+1001,2023-01-05,C001,Wireless Mouse,Electronics,East,2,25,15
+1002,2023-01-06,C002,Keyboard,Electronics,West,1,45,30
+1003,2023-01-07,C003,Office Chair,Furniture,South,1,120,80
+1004,2023-01-08,C004,Notebook,Stationery,North,5,3,1
+1005,2023-01-09,C005,Monitor,Electronics,East,1,180,120
