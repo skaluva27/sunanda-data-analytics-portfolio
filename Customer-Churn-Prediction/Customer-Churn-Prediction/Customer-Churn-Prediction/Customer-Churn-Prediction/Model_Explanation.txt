@@ -1,1 +1,65 @@
+MODEL EXPLANATION – CUSTOMER CHURN PREDICTION PROJECT
 
+1. PROJECT GOAL
+The goal of this project is to predict whether a customer will churn (leave the service) based on their demographic information, service usage, contract type, and billing details. This helps businesses identify at‑risk customers and take action to retain them.
+
+2. DATA USED
+The dataset includes:
+- Customer demographics (gender, senior citizen status)
+- Account information (tenure, contract type)
+- Services used (internet service, phone service)
+- Billing details (monthly charges, total charges)
+- Target variable: Churn (Yes/No)
+
+3. EDA SUMMARY
+Key insights discovered during Exploratory Data Analysis:
+- Customers with **month‑to‑month contracts** churn the most.
+- **Higher monthly charges** are strongly linked to churn.
+- Customers with **short tenure** (new customers) are more likely to churn.
+- Long‑term contract customers (1‑year or 2‑year) are more loyal.
+- Fiber optic users show higher churn compared to DSL users.
+
+4. DATA PREPROCESSING
+Steps performed before modeling:
+- Converted “Churn” into binary (Yes = 1, No = 0)
+- Converted TotalCharges to numeric and filled missing values
+- Removed customerID (not useful for prediction)
+- Encoded categorical variables using one‑hot encoding
+- Scaled numerical features for logistic regression
+
+5. MODELS BUILT
+Two machine learning models were trained:
+
+A. Logistic Regression
+- Simple, interpretable model
+- Works well with scaled numerical data
+- Helps understand which features influence churn
+
+B. Random Forest Classifier
+- Ensemble model using multiple decision trees
+- Handles categorical and numerical data well
+- Captures complex patterns in customer behavior
+
+6. MODEL PERFORMANCE
+Both models were evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+Random Forest generally performed better because:
+- It handles non‑linear relationships
+- It captures interactions between features
+- It is more robust to noise
+
+7. FINAL CONCLUSION
+The Random Forest model is the preferred model for predicting customer churn in this project. It provides higher accuracy and better recall, meaning it identifies more customers who are likely to churn.
+
+This project demonstrates:
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Feature engineering
+- Machine learning model building
+- Model evaluation and comparison
+
+It is a complete end‑to‑end data analytics and machine learning project suitable for a professional portfolio.
