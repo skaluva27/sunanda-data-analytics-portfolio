@@ -1,0 +1,112 @@
+POWER BI DASHBOARD – AWS COST ANALYTICS  
+Dashboard Layout, Visuals, and Insights
+
+1. DASHBOARD OVERVIEW
+The AWS Cost Analytics Dashboard provides a clear and interactive view of monthly cloud spending.  
+It helps identify:
+- High‑cost services  
+- Spending trends  
+- Regional cost distribution  
+- Cost spikes  
+- Optimization opportunities  
+
+The dashboard is designed for business leaders, finance teams, and cloud managers.
+
+------------------------------------------------------------
+
+2. PAGE 1 – EXECUTIVE SUMMARY
+
+Visuals:
+- KPI Cards:
+  - Total AWS Cost (YTD)
+  - Highest Cost Month
+  - Highest Cost Service
+- Line Chart:
+  - Monthly AWS Cost Trend
+- Bar Chart:
+  - Cost by AWS Service
+- Donut Chart:
+  - Cost by Region
+
+Insights:
+- EC2 consistently contributes the highest cost.
+- Costs increase steadily from January to June.
+- us-east-1 is the most expensive region.
+- Storage and compute dominate overall spending.
+
+------------------------------------------------------------
+
+3. PAGE 2 – SERVICE BREAKDOWN
+
+Visuals:
+- Stacked Bar Chart:
+  - Monthly Cost by Service
+- Table:
+  - ServiceName, UsageType, UsageAmount, Cost
+- Clustered Column Chart:
+  - Top 10 Highest Cost Items
+
+Insights:
+- EC2 and RDS show predictable monthly increases.
+- Lambda remains low-cost despite high usage.
+- S3 storage grows steadily month-to-month.
+
+------------------------------------------------------------
+
+4. PAGE 3 – REGION ANALYSIS
+
+Visuals:
+- Map Visualization:
+  - Cost by Region
+- Bar Chart:
+  - Monthly Cost by Region
+- KPI:
+  - Region with Highest Growth
+
+Insights:
+- us-east-1 dominates cost due to compute and database workloads.
+- us-west-2 shows moderate Lambda-related spending.
+- No unexpected regional spikes.
+
+------------------------------------------------------------
+
+5. PAGE 4 – COST SPIKE DETECTION
+
+Visuals:
+- Line Chart:
+  - Month-over-Month Cost Change
+- Conditional Formatting Table:
+  - Highlight months with >10% increase
+- Card:
+  - Number of Cost Spikes Detected
+
+Insights:
+- A noticeable cost increase occurs between February → March.
+- Growth is driven mainly by EC2 and RDS usage.
+- No extreme anomalies, but optimization is recommended.
+
+------------------------------------------------------------
+
+6. RECOMMENDATIONS
+
+Based on the analysis:
+- Consider Reserved Instances or Savings Plans for EC2 and RDS.
+- Review S3 lifecycle policies to reduce storage cost.
+- Monitor CloudWatch metrics usage to avoid unnecessary charges.
+- Evaluate Lambda usage patterns for optimization opportunities.
+
+------------------------------------------------------------
+
+7. CONCLUSION
+
+This dashboard provides a complete view of AWS spending and helps stakeholders:
+- Understand cost drivers
+- Identify optimization opportunities
+- Track monthly trends
+- Make informed cloud budgeting decisions
+
+It demonstrates strong skills in:
+- Data modeling
+- SQL analysis
+- Power BI dashboard design
+- Business storytelling
