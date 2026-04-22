@@ -1,0 +1,126 @@
+POWER BI DASHBOARD – HEALTHCARE ANALYTICS  
+Dashboard Layout, Visuals, and Insights
+
+1. DASHBOARD OVERVIEW
+The Healthcare Analytics Dashboard provides a complete view of patient operations, including wait times, no‑show patterns, department efficiency, and satisfaction levels.  
+It helps healthcare administrators improve patient flow, reduce delays, and enhance service quality.
+
+------------------------------------------------------------
+
+2. PAGE 1 – EXECUTIVE SUMMARY
+
+Visuals:
+- KPI Cards:
+  - Total Patients
+  - No‑Show Rate
+  - Average Wait Time
+  - Average Satisfaction Score
+- Donut Chart:
+  - Appointment Type Breakdown
+- Bar Chart:
+  - Patients by Department
+- Line Chart:
+  - Hourly Patient Load
+
+Insights:
+- No‑show rate is highest for new patient appointments.
+- Morning hours show the highest patient volume.
+- Orthopedics and Cardiology have longer wait times.
+
+------------------------------------------------------------
+
+3. PAGE 2 – WAIT TIME ANALYSIS
+
+Visuals:
+- Bar Chart:
+  - Average Wait Time by Department
+- Scatter Plot:
+  - Wait Time vs. Age
+- Table:
+  - PatientID, Department, AppointmentType, WaitTimeMinutes
+- KPI:
+  - Longest Average Wait Time (Department)
+
+Insights:
+- Orthopedics has the longest average wait time.
+- Younger patients tend to have shorter wait times.
+- Follow‑up appointments generally move faster.
+
+------------------------------------------------------------
+
+4. PAGE 3 – NO‑SHOW ANALYSIS
+
+Visuals:
+- Stacked Column Chart:
+  - No‑Show Count by Department
+- Bar Chart:
+  - No‑Show Rate by Appointment Type
+- Heatmap:
+  - No‑Show Patterns by Hour of Day
+- KPI:
+  - Total No‑Shows
+
+Insights:
+- New patient appointments have the highest no‑show rate.
+- Mid‑afternoon appointments show more no‑shows.
+- Pediatrics has the lowest no‑show rate.
+
+------------------------------------------------------------
+
+5. PAGE 4 – PATIENT SATISFACTION
+
+Visuals:
+- Bar Chart:
+  - Average Satisfaction Score by Department
+- Scatter Plot:
+  - Satisfaction vs. Wait Time
+- Donut Chart:
+  - Satisfaction Score Distribution
+- Table:
+  - PatientID, Department, WaitTimeMinutes, SatisfactionScore
+
+Insights:
+- Satisfaction drops significantly when wait time exceeds 20 minutes.
+- General Medicine has the highest satisfaction scores.
+- Orthopedics shows room for improvement.
+
+------------------------------------------------------------
+
+6. PAGE 5 – TIME-BASED TRENDS
+
+Visuals:
+- Line Chart:
+  - Patient Volume by Hour
+- Column Chart:
+  - Appointments by Day of Week
+- Area Chart:
+  - Wait Time Trend Over the Day
+
+Insights:
+- Peak patient load occurs between 9 AM and 11 AM.
+- Fridays have the lowest appointment volume.
+- Afternoon wait times increase due to backlog.
+
+------------------------------------------------------------
+
+7. RECOMMENDATIONS
+
+Based on the analysis:
+- Reduce wait times in Orthopedics through better scheduling.
+- Implement reminder systems to reduce no‑shows for new patients.
+- Add more morning appointment slots to handle peak load.
+- Improve patient flow during afternoon hours to reduce delays.
+- Monitor satisfaction scores closely for departments with long wait times.
+
+------------------------------------------------------------
+
+8. CONCLUSION
+
+This dashboard provides a comprehensive view of patient operations and healthcare efficiency.  
+It demonstrates strong skills in:
+- SQL data analysis
+- Power BI dashboard design
+- Healthcare operations analytics
+- Business storytelling and insights
+
+This project is a valuable addition to a professional data analytics portfolio.
