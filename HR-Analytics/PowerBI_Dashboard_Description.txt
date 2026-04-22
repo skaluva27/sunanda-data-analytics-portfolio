@@ -1,0 +1,106 @@
+POWER BI DASHBOARD – HR ANALYTICS  
+Dashboard Layout, Visuals, and Insights
+
+1. DASHBOARD OVERVIEW
+The HR Analytics Dashboard provides a complete view of employee demographics, attrition patterns, salary distribution, and performance insights.  
+It helps HR teams and leadership understand workforce trends and make data‑driven decisions.
+
+------------------------------------------------------------
+
+2. PAGE 1 – EXECUTIVE SUMMARY
+
+Visuals:
+- KPI Cards:
+  - Total Employees
+  - Total Attrition
+  - Attrition Rate
+  - Average Monthly Income
+- Line Chart:
+  - Attrition Trend Over Time (if applicable)
+- Bar Chart:
+  - Attrition by Department
+- Donut Chart:
+  - Gender Distribution
+- Card:
+  - Average Age
+
+Insights:
+- Sales department shows the highest attrition.
+- Younger employees (under 30) leave more frequently.
+- Average monthly income varies significantly across departments.
+
+------------------------------------------------------------
+
+3. PAGE 2 – ATTRITION ANALYSIS
+
+Visuals:
+- Stacked Bar Chart:
+  - Attrition by Age Group
+- Clustered Column Chart:
+  - Attrition by Job Role
+- Table:
+  - EmployeeID, Department, JobRole, MonthlyIncome, Attrition
+- Heatmap:
+  - Attrition vs. Years at Company
+
+Insights:
+- Employees with 1–3 years at the company show the highest turnover.
+- Sales Executives and Sales Representatives have the highest attrition.
+- Job satisfaction plays a major role in retention.
+
+------------------------------------------------------------
+
+4. PAGE 3 – SALARY & PERFORMANCE INSIGHTS
+
+Visuals:
+- Box Plot:
+  - Salary Distribution by Department
+- Bar Chart:
+  - Average Salary by Job Role
+- Scatter Plot:
+  - Monthly Income vs. Performance Rating
+- KPI:
+  - Highest Paid Department
+
+Insights:
+- R&D roles have higher average salaries.
+- No strong correlation between salary and performance rating.
+- HR roles show stable salary ranges with low attrition.
+
+------------------------------------------------------------
+
+5. PAGE 4 – WORKFORCE DEMOGRAPHICS
+
+Visuals:
+- Age Distribution Histogram
+- Gender Breakdown Donut Chart
+- Department Headcount Bar Chart
+- Years at Company Distribution
+
+Insights:
+- Workforce is mostly between ages 28–45.
+- Gender distribution is balanced across departments.
+- Tenure distribution shows many employees in early career stages.
+
+------------------------------------------------------------
+
+6. RECOMMENDATIONS
+
+Based on the analysis:
+- Improve onboarding and early‑career support to reduce 1–3 year attrition.
+- Review compensation structure for Sales roles.
+- Conduct job satisfaction surveys for high‑attrition roles.
+- Offer career development programs for younger employees.
+
+------------------------------------------------------------
+
+7. CONCLUSION
+
+This dashboard provides a complete view of workforce health and HR performance.  
+It demonstrates strong skills in:
+- Data modeling
+- SQL analysis
+- Power BI dashboard design
+- HR storytelling and insights
+
+It is a valuable addition to a professional data analytics portfolio.
